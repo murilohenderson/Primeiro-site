@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="coracao.png" type="image/x-icon">
-    <title>First class</title>
+    <title>Estudos de revisão</title>
     <style>
         body {
             background-color: rgb(226, 232, 255);
@@ -12,44 +12,44 @@
     </style>
 </head>
 <body>
-    <!--This is a comment in HTML (Hypertext Markup Language)-->
-    <h1>Classes informations</h1>
+    <!--Isso é um comentário em HTML (Hypertext Markup Language)-->
+    <h1>Revisões</h1>
     <hr>
 
-    <h2>While h1 is a tag for the principal tittle, the h2 is for the second most principal tittle, it's an hierarchy</h2>
-    <p>This is a paragraph</p>
-    <p>the tag < hr > serves for add a line</p>
+    <h2>O h1 é o título pricipal, e os outros títulos (h2, h3, h4...) estão hierarquicamente abaixo</h2>
+    <p>Isso é um parágrafo</p>
+    <p>A tag < hr > serve pra criar uma linha</p>
     <hr>
     <br>
 
-    <p>To add some emojis we can &#x2728; and these numberes are the emoji code</p>
+    <p>Para adicionar emoji colocase essa tag &#x2728; e eses números são o código do emoji</p>
     <br>
 
-    <!--With the img term it loads an image. It's also possible to add images from others folders-->
+    <!--Com a tag img é possível adicionar imagens de uma mesma pasta ou outras-->
     <img src="5835.jpg" alt="Logo do HTML">
-    <!--Furthermore, we can add external images, adding the link on the "src" term-->
+    <!--Pode-se colcoar imagens que não estão no dispositivo, adicionando o link no src-->
     <br>
 
-    <p>To add an adress we can use the <address>Tv. N2, 111, Cohab, Campina de Icoaraci</address></p>
+    <p>Para adicionar um endereço <address>Tv. N2, 111, Cohab, Campina de Icoaraci</address></p>
     <br>
 
-    <p>To write something in bold, we use <b>bold</b> or <strong>bold</strong> (semantic way)</p>
-    <p>To write something in italic, we use <i>italic</i> or <em>italic</em> (semantic way)</p>
+    <p>Para escrever algo em <b>negrito</b> ou <strong>negrito</strong> (forma semântica)</p>
+    <p>Para escrever algo em itálico, usa-se <i>itálico</i> ou <em>itálico</em> (forma semântica)</p>
     <br>
 
-    <p>To mark a text, we use <mark>marked text</mark></p>
-    <p>For <small>small texts</small> we use this</p>
-    <p>Text that doesn't need to be considered, it's called <del>excluded</del></p>
-    <p>Text <ins>underlined</ins></p>
+    <p><mark>Marca-texto</mark></p>
+    <p><small>Texto pequeno</small></p>
+    <p<del>Texto riscado</del></p>
+    <p><ins>Sublinhado</ins></p>
     <br>
 
-    <p>And these both:</p>
+    <p>Número no alto e número em baixo</p>
     <p>2<sup>10</sup> = 1024</p>
     <p>H<sub>2</sub>O</p>
     <br>
 
-    <p>The spacement between the letters go to monospaced, <code>so this text is monospaced</code></p>
-    <p>To write a code in some specific language, you do:</p>
+    <p>Deixar as letras monoespaçadas, <code>isso é um texto monoespaçado</code></p>
+    <p>Pra simular um código, coloca-se < code > pra deixar monoespaçado e < pre > pra deixá-lo exatamente como for escrito</pre></code></p>
     <pre>
         <code>
             num = int(input('Type a number'))
@@ -57,31 +57,31 @@
                 print(f'The number {num} is a number')
         </code>
     </pre>
-    <p>According with the person Fulano The Town, <q>idk what he said</q></p>
-    <p>According with the person:</p>
-    <blockquote cite="">Idk what the person said</blockquote>
-    <!--When you "cite", the website will know and improve your clicks-->
+    <p>De acordo com Eu:<q>não sei o que que eu disse</q></p>
+    <p>De acordo com tal pessoa:</p>
+    <blockquote cite="">Citação de tal pessoa aqui</blockquote>
+    <!--Quando se coloca a propriedade cite="" o website e os mecanismos de busca vão melhorar os clicks do site-->
     <br>
 
-    <p>To show the meaning of some abbreviation, like what is <abbr title="HyperText Markup Language">HTML</abbr> or <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <p>Pra mostrar que tal coisa é abreviação quando passar o mouse por cima<abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
     <br>
 
-    <p>Let's work with lists</p>
-    <p>Ordered list:</p>
+    <p>Listas listudas que listam</p>
+    <p>Listas ordenadas (OL):</p>
     <ol type="I">
         <li>Wake up</li>
         <li>Take breakfast</li>
         <li>Brush my teeth</li>
     </ol>
-    <!--To start form a different algarism, like a letter you put the type-->
-    <p>Unordered list:</p>
+    <!--Pode-se começar por algarimos diferentes (I, i)-->
+    <p>Listas não ordenadas (OL):</p>
     <ul type="disc">
         <li>Bread</li>
         <li>Milk</li>
         <li>Butter</li>
         <li>Rice</li>
     </ul>
-    <!--You can change the type to: disc; circle;square-->
+    <!--Pode mudar o tipo da bolinha por: disc; circle;square-->
     <br>
 
     <p>Mixed lists about code languages</p>
@@ -101,12 +101,13 @@
     </ol>
     <br>
 
-    <p>Uhull let's link another page</p>
-    <p>Click <a href="https://www.youtube.com/" target="_blank" rel="external">here</a> to go to youtube</p>
-    <!--If you don't put the target _blank, the user won't come back-->
-    <p>Click <a href="page2.html" rel="next">here</a> to go to the other my page</p>
+    <p>Linkando outra página</p>
+    <p>Click <a href="https://www.youtube.com/" target="_blank" rel="external">aqui</a> para ir ao youtube</p>
+    <!--O target _blank serve pra abrir em outra páginak-->
+    <p>Click <a href="page2.html" rel="next">aqui</a> para ir a outra página</p>
+    <!--Se você não quiser que os mecanismos de busca sigam para o site que você colocou (válido se não for outra página do seu site), coloque o rel="nofollow"-->
     <br>
-    <p>If you don't give a guarantee, put "nofollow" in the rel</p>
+
     <p>
         In the href="" of a link, when you wanna go for a file of a "past" folder, you put ../ 
     </p>
@@ -114,7 +115,44 @@
 
     <p>To download a pdf</p>
     <p><a href="CF.pdf" download="CF.pdf" type="application/pdf">Download pdf</a>Clica nenném</p>
-    
-    
+    <br>
+
+    <p>Let's look an image</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="Imagem flexível">
+    </picture>
+    <br>
+
+    <p>Vamos ouvir uma música?</p>
+    <audio src="happy-mistake.mp3" controls autoplay></audio> <br>
+    <!--MP3, WAV, OGG-->
+    <audio preload="metadata" autoplay controls>
+        <source src="happy-mistake.mp3" type="audio/mpeg">
+        <source src="happy-mistake.mp3" type="audio/ogg">
+        <source src="happy-mistake.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio.
+        <a href="happy-mistake.mp3">Clique aqui para baixar o arquivo</a>
+        </p>
+        <!--Ele tenta carregar todos os audios em prioridade desde o mais de cima até o mais debaixo, caso não consiga funcionar nenhum, ele mostra a mensagem <p>-->
+    </audio>
+    <br>
+
+    <p>Vídeo hospedado no mesmo servidor</p>
+    <!--A propriedade poster serve pra colocar a capa do vídeo-->
+    <video controls poster="">
+        <source src="" type="video/mp4">
+        <source src="" type="video/webm">
+        <source src="" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com vídeos</p>
+    </video>
+    <!--Ele tenta todos os formatos de vídeo até mostrar a mensagem-->
+    <!--Pode ficar mais caro por ter um download de arquivos muito grandes-->
+    <br>
+
+    <p>Inserindo vídeos do youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Eyd9VGoDjio?si=UjmCRMji4_F57kGW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--Você cola a opção incorporar do youtube-->
 </body>
 </html>
